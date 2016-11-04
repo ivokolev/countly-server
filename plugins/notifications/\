@@ -1,0 +1,22 @@
+        <div class="widget">
+                <div class="widget-header">
+                        <div class="left">
+                                <div class="logo font-logo">
+                    <i class="fa fa-bell"></i>
+                                </div>
+                                <div class="title">{{page-title}}</div>
+			</div>
+			<div class="right">
+                                <div class="icon-button green" id="add-event" data-localize="notifications.addevent"></div>
+                        	<div class="icon-button green" id="add-event" data-localize="notifications.addevent"></div>
+			</div>
+                </div>
+        </div>
+        </div>
+        <div class="notifications">
+        <div id="create-event-row">
+	 	Hello
+	</div>
+<table id="dataTableOne" class="d-table views-table help-zone-vb no-fix" cellpadding="0" cellspacing="0" data-help-localize="help.{{{table-helper}}}"></table>
+	</div>
+
