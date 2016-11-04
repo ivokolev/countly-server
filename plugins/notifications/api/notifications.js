@@ -1,7 +1,6 @@
 var notifications = {},
 	 common = require('../../../api/utils/common.js'),
-	 moment = require("moment") 
-	 //log = common.log('flows:api')
+	 moment = require("moment"); 
 
 (function (notifications) {
 
