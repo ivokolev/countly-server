@@ -1,2 +1,3 @@
-#add-event{margin-top: 5px; padding: 6px;}
+#add-event, #add-session{margin-top: 5px; padding: 6px;}
+
 #create-event-row{display:none;}
