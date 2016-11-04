@@ -17,7 +17,16 @@ window.NotificationsView = countlyView.extend({
         };
 		if (!isRefresh) {
             		$(this.el).html(this.template(this.templateData));
-			
+		
+			$(".cancel-notification").on("click",function(){
+				$("#create-event-row").slideUp();
+				var eventDetails = $(".notifications:visible");
+				eventDetails.find("input[name=eventname]").val("");
+				eventDetails.find("input[name=segment]").val("");
+				eventDetails.find("input[name=svalue]").val("");
+				eventDetails.find("input[name=reach]").val("");	
+			});
+				
 			$("#add-event").on("click",function(){
 				if ($("#create-event-row").is(":visible")){
 					$("#create-event-row").slideUp();
